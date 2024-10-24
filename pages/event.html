@@ -1,0 +1,112 @@
+<!--
+  Skrivet av Emil Esa-Pekka Asikainen - 2024-10-24
+  Denna HTML-kod innehåller strukturen för evenemangssektionen.
+  Viktor Vahlqvist skrev nav och footer strukturen.
+  Ismail Takow skapade bilderna.
+-->
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Emil Esa-Pekka Asikainen" />
+    <meta name="keywords" content="evenemang, böcker, litteratur, bokdiskussioner, författare, Pärmar & Poesi" />
+    <link rel="stylesheet" href="../src/main.css" />
+    <title>Evenemang</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="../images/parmar-poesi.logotyp.png"
+        class="Logo"
+        alt="Företagets logotyp"
+      />
+      <label aria-label="Byt mellan mörkt och ljust tema"
+        ><input type="checkbox" class="Dark-toggle" /><img
+          src="../images/icons/dark-theme-svgrepo-com.svg"
+          alt="Mörkt och ljust tema-ikon"
+          class="Dark-icon"
+      /></label>
+      <label class="hamburger-menu" aria-label="Meny"
+        ><input type="checkbox"
+      /></label>
+      <nav aria-label="Huvudnavigation">
+        <ul>
+          <li><a href="../index.html">Hem</a></li>
+          <li><a href="book-news.html">Boknyheter</a></li>
+          <li><a href="event.html">Evenemang</a></li>
+          <li><a href="about.html">Om Oss</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img
+        src="../images/parmar-poesi-event.webp"
+        alt="Picture of an Pärmar & Poesi event"
+        class="event-image"
+      />
+      <article class="event-section">
+        <section class="center-box">
+          <h2 class="welcome-event">Välkommen till våra evenemang!</h2>
+          <!-- Each paragraph separated for better vertical alignment -->
+          <p class="event-info">
+            Pärmar & Poesi tror vi att böcker är mer än bara sidor; de är en väg
+            till gemenskap och inspiration. Därför är vi stolta över att kunna
+            erbjuda en rad olika evenemang för att engagera våra kunder och dela
+            vår passion för litteratur.
+          </p>
+          <p class="event-info">
+            Under hösten bjuder vi in till en serie spännande evenemang där ni
+            får möjlighet att träffa författare, delta i bokdiskussioner och
+            dela era egna läsupplevelser. Varje tillfälle är en chans att koppla
+            samman med andra bokälskare, diskutera era favoritböcker och
+            upptäcka nya titlar.
+          </p>
+          <p class="event-info">
+            Vi inleder säsongen med en specialkväll där Camilla kommer att hålla
+            en bokstund. Det blir en fantastisk möjlighet för alla deltagare att
+            berätta om de böcker som har gjort intryck på dem och diskutera de
+            teman som berör oss alla.
+          </p>
+          <p class="event-info">
+            Håll utkik efter våra kommande evenemang och boka din plats för en
+            oförglömlig kväll i litteraturens tecken.
+          </p>
+        </section>
+        <a href="booking-page.html" class="booking-link">
+          <img src="../images/add.png" alt="Button.png" />
+          <p>Boka här!</p>
+        </a>
+      </article>
+    </main>
+    <footer aria-label="Sociala medier">
+      <ul>
+        <li>
+          <a href="#"
+            ><img src="../images/icons/youtube.svg" alt="Youtube-logotyp"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="../images/icons/tiktok.svg" alt="Tiktok-logotyp"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="../images/icons/instagram.svg" alt="Instagram-logotyp"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="../images/icons/twitter-x.svg" alt="Twitter-X-logotyp"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="../images/icons/facebook.svg" alt="Facebook-logotyp"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
