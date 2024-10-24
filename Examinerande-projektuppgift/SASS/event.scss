@@ -1,0 +1,87 @@
+@use "../main";
+@use "mixins";
+@use "variables" as vars;
+
+// // Styling for the event image
+// .event-image {
+//   width: 60vh; // Responsive image sizing
+//   max-width: 100%; // Ensure it doesn't exceed the container width
+//   height: auto; // Maintain aspect ratio
+//   border-radius: 10px; // Rounded corners
+//   margin-bottom: 20px; // Space below the image
+//   margin-top: 20px; // Add space between the navbar and the image
+//   display: block; // Ensure it behaves like a block element
+//   margin-left: auto; // Center the image horizontally
+//   margin-right: auto; // Center the image horizontally
+
+//   // Adjust image size for smaller screens
+//   @media only screen and (max-width: 768px) {
+//     width: 50vh; // Smaller size on tablets
+//   }
+//   @media only screen and (max-width: 576px) {
+//     width: 40vh; // Even smaller on smartphones
+//   }
+// }
+// // Event section container
+// .event-section {
+//   border: 2px solid #{vars.$primary-color}; // Add border with Classic Rose
+//   padding: 20px; // Add some padding
+//   max-width: 800px; // Limit the width of the box
+//   margin: 0 auto; // Center the box horizontally
+//   background-color: #{vars.$body-bg-color}; // Use Bone-white as background for the event section
+//   border-radius: 10px; // Add rounded corners
+//   box-shadow: 0 4px 15px rgba(251, 200, 224, 0.5); // Add a pink shadow
+
+//   // Adjust layout for smaller screens
+//   @media only screen and (max-width: 768px) {
+//     padding: 15px; // Less padding on tablets
+//     max-width: 90%; // Shrink the width for tablets
+//   }
+//   @media only screen and (max-width: 576px) {
+//     padding: 10px; // Less padding on smartphones
+//     max-width: 95%; // Shrink the width for smartphones
+//   }
+// }
+// // Text styling and spacing between sections
+// .center-box p {
+//   margin-bottom: 20px; // Space between paragraphs
+//   line-height: 1.6; // Line spacing for readability
+// }
+
+// // Booking link styling with button and image
+// .booking-link {
+//   @include flex-center; // Center the link content
+//   margin-top: 20px; // Space above the button section
+//   text-decoration: none; // Remove underline from the link
+
+//   img {
+//     margin-right: 10px; // Space between image and text
+//   }
+
+//   p {
+//     display: inline-block; // Ensure text is inline with image
+//     background-color: #{vars.$primary-color}; // Use Classic Rose for background
+//     color: white; // White text
+//     padding: 10px 15px; // Padding for button
+//     border-radius: 5px; // Rounded corners for the button
+//     cursor: pointer; // Pointer cursor on hover
+
+//     // Adjust button padding for smaller screens
+//     @media only screen and (max-width: 768px) {
+//       padding: 8px 12px; // Smaller padding for tablets
+//     }
+//     @media only screen and (max-width: 576px) {
+//       padding: 5px 10px; // Smaller padding for smartphones
+//     }
+
+//     // Hover effect for button
+//     &:hover {
+//       background-color: #{vars.$secondary-color}; // Change to English Vermillion on hover
+//     }
+//   }
+
+//   // Hover effect for the image as well
+//   &:hover img {
+//     opacity: 0.8; // Slightly fade the image on hover
+//   }
+// }
